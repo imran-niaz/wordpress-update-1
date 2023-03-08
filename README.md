@@ -1,7 +1,7 @@
 # wordpress-update-1
-##To automatically refresh a PHP page when changes are made in the code or design, you can use a technique called "browser polling". This involves sending periodic requests to the server to check for changes and then refreshing the page if there are any updates.
+## To automatically refresh a PHP page when changes are made in the code or design, you can use a technique called "browser polling". This involves sending periodic requests to the server to check for changes and then refreshing the page if there are any updates.
 
-###Here's an example PHP script that demonstrates how to implement browser polling:
+### Here's an example PHP script that demonstrates how to implement browser polling:
 
 In this script, we start by setting the appropriate headers to indicate that the page should be cached by the browser. We then check the HTTP request headers to see if the browser has a cached copy of the page. If the page hasn't been modified since the last time the browser requested it, we return a 304 Not Modified response and exit.
 
